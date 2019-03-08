@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter The Number"
+        android:gravity="center"
+        android:id="@+id/e1"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn1"
+        android:text="camera"
+        android:id="@+id/b1"
+
+        android:textSize="30dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn1"
+        android:text="sms"
+        android:id="@+id/b2"
+        android:textSize="30dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="105dp"
+        android:text="call"
+        android:id="@+id/b3"
+        android:background="@drawable/btn1"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="105dp"
+        android:text="web"
+        android:id="@+id/b4"
+        android:background="@drawable/btn1"
+        android:textSize="30dp"/>
+</LinearLayout>
